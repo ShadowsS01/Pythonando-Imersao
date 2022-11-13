@@ -1,0 +1,8 @@
+FROM dkshs/python_dev:latest
+
+COPY requirements.txt ./
+RUN pip install -r requirements.txt
+
+COPY . .
+
+CMD [ "./.docker/start.sh" ]
