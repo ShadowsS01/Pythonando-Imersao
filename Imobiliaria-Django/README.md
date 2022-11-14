@@ -2,7 +2,8 @@
 
 [![license mit](https://img.shields.io/badge/licence-MIT-turquoise)](../LICENSE)
 
-O projeto inicial foi desenvolvido durante o evento [Pystack Week 2.0](https://pythonando.com.br/). A proposta é criar um site para uma imobiliária.
+O projeto inicial foi desenvolvido durante o evento [Pystack Week 2.0](https://pythonando.com.br/).\
+A proposta é criar um site para uma imobiliária.
 
 ## Ferramentas Utilizadas
 

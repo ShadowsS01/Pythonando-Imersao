@@ -2,7 +2,7 @@
 
 [![license mit](https://img.shields.io/badge/licence-MIT-blue)](../LICENSE)
 
-O projeto inicial foi desenvolvido durante o evento [Pystack Week 3.0](https://pythonando.com.br/).
+O projeto inicial foi desenvolvido durante o evento [Pystack Week 3.0](https://pythonando.com.br/).\
 A proposta é criar sistema de gerenciamento de pacientes para um nutricionista.
 
 ## Tecnologias utilizadas

@@ -2,7 +2,8 @@
 
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue)](../LICENSE)
 
-O projeto inicial foi desenvolvido durante o evento [Pystack Week 1.0](https://pythonando.com.br/). A proposta é criar um site para hospedar cursos.
+O projeto inicial foi desenvolvido durante o evento [Pystack Week 1.0](https://pythonando.com.br/).\
+A proposta é criar um site para hospedar cursos.
 
 ## Tecnologias e libs utilizadas
 
