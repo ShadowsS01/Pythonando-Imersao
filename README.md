@@ -12,7 +12,9 @@
 
   <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/ShadowsS01/Pythonando-Imersao" />
 
-  <img alt="Licença" src="https://img.shields.io/github/license/ShadowsS01/Pythonando-Imersao?color=blue" />
+  <a href="/LICENSE">
+    <img alt="Licença" src="https://img.shields.io/github/license/ShadowsS01/Pythonando-Imersao?color=blue" />
+  </a>
 </p>
 
 <!-- # Imserões da Pythonando [<img width="30" src="https://github.com/Pythonando.png" alt="Logo da Pythonando" />](https://github.com/Pythonando/) -->
