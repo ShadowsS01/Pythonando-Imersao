@@ -87,7 +87,7 @@ docker compose up -d
 
 *O container quando iniciado, inicia a aplicação Django!*
 
-> ***Os passos abaixo serão necessário somente se você ainda não fez as migrações e a criação de um super user! Caso já tenha feito, a aplicação pode ser acessado em: <http://localhost:8080>***
+> ***Os passos abaixo serão necessário somente se você ainda não fez as migrações e a criação de um super user! Caso já tenha feito, a aplicação pode ser acessada em: <http://localhost:8080>***
 
 Será necessário entrar no container via cli:
 
@@ -121,4 +121,4 @@ python manage.py createsuperuser
 
 Este projeto esta sobe a licença [MIT](../LICENSE)
 
-🔝[Voltar para o topo](#cursos-django)
+🔝[Voltar para o topo](#top)
