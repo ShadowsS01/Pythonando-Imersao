@@ -1,0 +1,158 @@
+.titulo {
+  color: rgb(214, 129, 160);
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.titulo2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.bg2 {
+  background-color: rgb(15, 17, 17);
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.input-tarefa {
+  width: 60%;
+}
+
+.btn-orange {
+  background-color: #ed8554;
+  color: white;
+  width: 30%;
+}
+.btn-orange:focus {
+  box-shadow: 0 0 0 0.3rem rgba(13, 110, 253, 0.2);
+}
+
+.div-tarefas {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.list-tarefa {
+  list-style: none;
+}
+
+.li-tarefa {
+  background-color: #3b0032;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  align-items: center;
+}
+
+.li-tech {
+  background-color: #3b0032;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 60%;
+}
+
+.prioridade-icon {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.arrow-right {
+  float: right;
+}
+
+.prioridade-bloco {
+  margin-left: 20px;
+}
+
+.prioridade-vermelho {
+  color: red;
+}
+
+.prioridade-amarelo {
+  color: yellow;
+}
+
+.prioridade-verde {
+  color: green;
+}
+
+.bg3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.titulo-emails {
+  margin-bottom: 20px;
+}
+
+.emails {
+  max-height: 500px;
+  overflow-y: auto;
+  gap: 36px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 0px 32px;
+}
+
+.box-email {
+  background-color: #c9c3c3;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header-email {
+  background-color: #330315;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.75rem;
+  font-size: 1.5rem;
+  word-wrap: break-word;
+}
+
+.body-email {
+  padding: 15px;
+  background-color: #3d3e3f;
+  font-weight: 600;
+  line-height: 1.6rem;
+  font-size: 1.125rem;
+  word-wrap: break-word;
+  max-height: 270px;
+  overflow-y: auto;
+}
+
+.paragrafo-orange {
+  color: #ed8554;
+}
+
+.progress {
+  background-color: rgba(15, 17, 17, 0.5);
+}
+
+@media (max-width: 768px) {
+  .emails {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .emails {
+    padding: 0px 16px;
+  }
+}
+
+@media (max-width: 300px) {
+  .emails {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 0px 6px;
+  }
+}

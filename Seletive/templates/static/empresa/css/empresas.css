@@ -1,0 +1,101 @@
+.wrapper {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 80vw;
+  background: rgb(19, 21, 22);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.titulo {
+  display: inline;
+}
+
+.btn-nova-empresa {
+  float: right;
+  text-decoration: none;
+  color: #d1cdc7;
+  background-color: #7d2948;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn-nova-empresa:hover {
+  color: #d1cdc7;
+  text-decoration: none;
+  background-color: #631f38;
+}
+
+.btn-excluir:hover {
+  color: #d1cdc7;
+  text-decoration: none;
+  background-color: #631f38;
+}
+
+.header-box {
+  padding: 30px;
+}
+
+.borda-box {
+  border-top: 1px solid rgb(62, 68, 70);
+}
+
+.body-box {
+  padding: 30px;
+}
+
+.link-empresa {
+  color: #ed8554;
+  transition: 0.5s;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 6px;
+}
+.link-empresa:hover {
+  color: #d1cdc7;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.link-empresa:focus-visible {
+  color: #d1cdc7;
+  outline: none;
+  border: 1px solid #ed8554;
+  transition: color 0.5s;
+}
+
+.btn-orange {
+  background-color: #ed8554;
+  color: white;
+}
+
+.btn-red {
+  background-color: rgba(255, 0, 8, 0.7);
+  color: white;
+}
+
+.tabela {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tabela-linha {
+  background-color: rgb(66, 66, 66);
+}
+
+.btn-excluir {
+  text-decoration: none;
+  color: #d1cdc7;
+  background-color: #7d2948;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.2s;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: 600;
+      }
+      body {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: rgb(15, 17, 17);
+      }
+      *::selection {
+        background-color: rgba(1, 41, 100, 0.3) !important;
+        color: rgb(11, 68, 148) !important;
+      }
+
+      .container {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      h2 {
+        width: 100%;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        word-wrap: break-word;
+        padding-bottom: 6px;
+        border-bottom: 1px solid rgba(26, 26, 26, 0.3);
+      }
+      .container-body {
+        font-weight: 600;
+        line-height: 1.6rem;
+        font-size: 1.125rem;
+        word-wrap: break-word;
+      }
+
+      a {
+        transition: color 0.5s;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        padding: 6px;
+        color: rgba(1, 41, 100, 1);
+      }
+      a:hover {
+        color: rgba(13, 110, 253, 1);
+        transition: color 0.5s;
+      }
+      a:focus {
+        color: rgba(13, 110, 253, 1);
+        outline: none;
+        border: 1px solid rgba(1, 41, 100, 1);
+        transition: color 0.5s;
+      }
+
+      footer {
+        width: 100%;
+        border-top: 1px solid rgba(26, 26, 26, 0.3);
+        padding: 8px 0px;
+      }
+    </style>
+
+    <div class="container">
+      <h2 style="margin: 0">{{assunto}}</h2>
+      <div style="margin: 24px 0px" class="container-body">{{corpo}}</div>
+      <footer>
+        E-mail enviado por
+        <a href="{{domain}}home/empresas">SELETIVE</a>
+      </footer>
+    </div>
+  </body>
+</html>

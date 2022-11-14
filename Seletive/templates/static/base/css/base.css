@@ -1,0 +1,101 @@
+* {
+  color: #d1cdc7;
+}
+
+*::selection {
+  background-color: rgba(41, 0, 35, 0.7);
+}
+input::selection,
+textarea::selection {
+  background-color: rgba(0, 0, 0, 1);
+  color: rgb(209, 205, 199);
+}
+
+*::-webkit-scrollbar {
+  height: 0.625rem;
+  width: 0.625rem;
+}
+*::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: gray;
+}
+
+body {
+  background-color: rgba(15, 17, 17, 0.9);
+}
+
+.bg-nav {
+  background-color: #290023 !important;
+  padding: 10px;
+}
+
+.bg-nav > a {
+  transition: 0.3s;
+}
+
+.bg-nav > a:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.form-control,
+.form-select,
+input,
+select {
+  color: rgb(209, 205, 199);
+  background-color: rgb(24, 26, 27) !important;
+  border-color: rgb(60, 65, 68);
+}
+
+.form-control:focus,
+input:focus,
+select:focus {
+  color: rgb(209, 205, 199);
+  background-color: rgb(24, 26, 27) !important;
+  border-color: rgb(60, 65, 68);
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px #1f061b inset;
+  -webkit-text-fill-color: #e8e6e3;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px #1f061b inset;
+  -webkit-text-fill-color: #e8e6e3;
+}
+
+.alert {
+  font-weight: 500;
+}
+#message::selection {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: white;
+}
+@keyframes animate-open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes animate-close {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.animate-open {
+  animation-name: animate-open;
+  animation-duration: 2s;
+}
+.animate-close {
+  animation-name: animate-close;
+  animation-duration: 4s;
+}

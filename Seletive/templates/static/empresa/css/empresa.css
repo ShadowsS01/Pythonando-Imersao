@@ -1,0 +1,95 @@
+.titulo {
+  color: rgb(214, 129, 160);
+  font-weight: bold;
+}
+
+.paragrafo {
+  font-size: 25px;
+}
+
+.logo {
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5), 0 4px 6px -4px rgb(0 0 0 / 0.5);
+}
+
+.btn-orange {
+  background-color: rgb(19, 21, 22);
+  color: white;
+  width: 30%;
+}
+.btn-orange:hover {
+  background-color: rgba(19, 21, 22, 0.8);
+}
+.btn-orange:focus {
+  background-color: rgba(19, 21, 22, 0.8);
+  box-shadow: 0 0 0 0.3rem rgba(13, 110, 253, 0.2);
+}
+
+.btn-black {
+  color: white;
+  width: 30%;
+}
+
+label {
+  font-weight: bold;
+}
+
+.box-vagas {
+  width: 400px;
+  margin-top: 60px;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.header-vagas {
+  background-color: #330315;
+  padding: 4px 0px;
+  height: 54px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-top-left-radius: 0.55rem;
+  border-top-right-radius: 0.55rem;
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.body-vagas {
+  padding: 15px;
+  background-color: rgb(19, 21, 22);
+  border-bottom-left-radius: 0.55rem;
+  border-bottom-right-radius: 0.55rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5), 0 4px 6px -4px rgb(0 0 0 / 0.5);
+}
+
+.paragrafo-orange {
+  color: #ed8554;
+}
+
+.modal-content {
+  background-color: rgb(19, 21, 22);
+}
+.btn-close {
+  color: white;
+  background-color: #ed8554;
+}
+
+.link-vaga {
+  outline: none;
+  text-decoration: none;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.box-vagas:focus-within,
+.box-vagas:hover {
+  box-shadow: 0 0 0 0.3rem rgba(13, 110, 253, 0.5);
+  transform: scale(1.05);
+  transition: 0.3s;
+}
