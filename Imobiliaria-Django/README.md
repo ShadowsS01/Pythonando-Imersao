@@ -30,7 +30,7 @@ cd Pythonando-Imersao/Imobiliaria-Django
 
 ### 3. Ambiente virtual
 
-Inicie um ambiente virtual e ative-o. Se não souber como, isso pode ajudar: <https://docs.python.org/pt-br/3/tutorial/venv.html>.
+Inicie um ambiente virtual e ative-o. Se não souber como, isso pode ajudar: <https://docs.python.org/pt-br/3/tutorial/venv.html#creating-virtual-environments>.
 
 ### 4. instale as dependências
 
