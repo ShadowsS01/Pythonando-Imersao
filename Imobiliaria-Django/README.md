@@ -1,10 +1,10 @@
-# Cursos-Django
+# Imobiliária-Django <img id="top" alt="logo" width="30" src="templates/static/autenticacao/img/logo.png" />
 
-[![licence mit](https://img.shields.io/badge/licence-MIT-blue)](../LICENSE)
+[![license mit](https://img.shields.io/badge/licence-MIT-turquoise)](../LICENSE)
 
-O projeto inicial foi desenvolvido durante o evento [Pystack Week 1.0](https://pythonando.com.br/). A proposta é criar um site para hospedar cursos.
+O projeto inicial foi desenvolvido durante o evento [Pystack Week 2.0](https://pythonando.com.br/). A proposta é criar um site para uma imobiliária.
 
-## Tecnologias e libs utilizadas
+## Ferramentas Utilizadas
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -25,12 +25,12 @@ git clone https://github.com/ShadowsS01/Pythonando-Imersao.git
 ### 2. Acesse a pasta do projeto
 
 ```bash
-cd Pythonando-Imersao/Cursos-Django
+cd Pythonando-Imersao/Imobiliaria-Django
 ```
 
 ### 3. Ambiente virtual
 
-Inicie um ambiente virtual e ative-o. Se não souber como, isso pode ajudar: <https://docs.python.org/pt-br/3/tutorial/venv.html#creating-virtual-environments>.
+Inicie um ambiente virtual e ative-o. Se não souber como, isso pode ajudar: <https://docs.python.org/pt-br/3/tutorial/venv.html>.
 
 ### 4. instale as dependências
 
@@ -115,10 +115,10 @@ python manage.py createsuperuser
 
 ## Créditos
 
-> Projeto criado e desenvolvido no evento online e gratuito PystackWeek 1.0 da [Pythonando](https://github.com/Pythonando)
+> Projeto criado e desenvolvido no evento online e gratuito PystackWeek 2.0 da [Pythonando](https://github.com/Pythonando)
 
 ## Licença
 
-Este projeto esta sobe a licença [MIT](../LICENSE)
+Este projeto esta sobe a licença [MIT](../LICENSE).
 
-🔝[Voltar para o topo](#cursos-django)
+🔝[Voltar para o topo](#top)
