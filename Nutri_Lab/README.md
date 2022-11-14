@@ -126,6 +126,6 @@ python manage.py createsuperuser
 
 ## Licença
 
-Este projeto esta sobe a licença [MIT](../LICENSE).
+Este projeto esta sob a licença [MIT](../LICENSE).
 
 🔝[Voltar para o topo](#nutri-lab)
