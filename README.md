@@ -2,7 +2,7 @@
   <a href="https://github.com/Pythonando/">
     <img style="border-radius: 26px;" width="120" src="https://github.com/Pythonando.png" alt="Logo da Pythonando" />
   </a>
-  <h1>Imserões da Pythonando</h1>
+  <h1>Imersões da Pythonando</h1>
 </div>
 
 <p align="center">
