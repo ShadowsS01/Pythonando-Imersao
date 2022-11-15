@@ -122,7 +122,7 @@ python manage.py createsuperuser
 
 ## Créditos
 
-> Projeto criado e desenvolvido no evento online e gratuito Pylab 2022 da [Pythonando](https://github.com/Pythonando)
+> Projeto criado e desenvolvido no evento online e gratuito Pylab 2022 da [Pythonando](https://github.com/Pythonando).
 
 ## Licença
 

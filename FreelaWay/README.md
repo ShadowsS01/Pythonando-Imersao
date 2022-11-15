@@ -115,7 +115,7 @@ python manage.py createsuperuser
 
 ## Créditos
 
-> Projeto criado e desenvolvido no evento online e gratuito PystackWeek 3.0 da [Pythonando](https://github.com/Pythonando)
+> Projeto criado e desenvolvido no evento online e gratuito PystackWeek 3.0 da [Pythonando](https://github.com/Pythonando).
 
 ## Licença
 

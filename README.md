@@ -19,4 +19,4 @@
 
 ## Sobre
 
-Projetos desenvolvidos durante as imersões da [Pythonando](https://github.com/Pythonando)
+Projetos desenvolvidos durante as imersões da [Pythonando](https://github.com/Pythonando).
